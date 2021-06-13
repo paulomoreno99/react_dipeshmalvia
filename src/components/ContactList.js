@@ -27,11 +27,10 @@ const ContactList = (props) => {
 
     return (
     <div class="main">
-      <br></br>
-      <br></br>
+      
       <h2>
         Contact list
-        <Link to="/add"><button className="ui button blue right">Add Contact</button></Link>
+        <Link to="/add"><button className="ui button blue">Add Contact</button></Link>
       
       </h2>
       <div className="ui celled list">{renderContactList}</div>
